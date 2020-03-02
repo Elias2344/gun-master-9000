@@ -41,5 +41,13 @@ namespace Gun_Master_9000
         public int GetRemaininingRounds(){
             return this.rounds;
         }
+        
+        public void Shot() {
+
+        }
+
+        public bool IsDead() {
+            return false;
+        }
     }
 }
